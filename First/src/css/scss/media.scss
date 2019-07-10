@@ -1,0 +1,245 @@
+@media screen and (max-width: 1199px) {
+	.offer {
+		&-surfboards {
+			&__bg-text {
+				display: none;
+			}
+		}
+	}
+	.social {
+		&-title {
+			font-size: 93px !important;
+		}
+	}
+	.footer {
+		margin-top: 0 !important;
+	}
+}
+@media screen and (max-width: 991px) {
+	.header {
+		&-logo {
+			text-align: center;
+		}
+	}
+	.offer {
+		&-surfboards {
+			padding: 30px 15px !important; 
+			display: block !important;
+			background: $light !important;
+			&__desc {
+				text-align: center;
+				margin-top: 40px;
+				&-title {
+					margin-bottom: 30px !important;
+				}
+				&-button {
+					margin-bottom: 50px !important;
+				}
+				&-more {
+					margin: auto;
+				}
+			}
+		}
+	}
+	.about-us {
+		&-bg {
+			&-white {
+			width: 55% !important;
+			}
+		}
+		&-video {
+			margin-top: 50px !important;
+		}
+	}
+	.our-team {
+		&-arrow-wrap {
+			margin: 0 !important;
+			display: flex;
+			height: 600px !important;
+		}
+		&-title {
+			font-size: 150px !important;
+		}
+		&-card-wrap {
+			margin-top: 0 !important;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		&-card {
+			margin-bottom: 40px;
+			width: 45% !important;
+			&_second {
+				position: static !important;
+			}
+			&_third {
+				left: 0 !important;
+			}
+			&_fourth {
+				position: static !important;
+			}
+		}
+	}
+	.social {
+		&-title {
+			font-size: 85px !important;
+		}
+	}
+}
+	
+@media screen and (max-width: 767px) {
+	.header {
+		&-icons {
+			justify-content: center !important;
+			margin-top: 20px;
+		}
+	}
+	.about-us {
+		padding-bottom: 80px !important;
+		&-title {
+			font-size: 150px !important;
+		}
+		&-bg {
+			margin-top: -40px !important;
+			&-white {
+				width: 100% !important;
+				height: 300px !important;
+				margin-top: 100px !important;
+			}
+		}
+		&-desc {
+			margin-top: -170px !important;
+		}
+	}
+	.our-team {
+		&-arrow-wrap {
+			display: none;
+			
+		}
+		&-arrow {
+			display: none;
+		}
+		&-card {
+			width: 100% !important;
+		}
+		&-title {
+			font-size: 80px !important;
+		}
+		&-updates-wrap {
+			flex-wrap: wrap;
+		}
+		&-updates {
+			margin-left: 0 !important;
+			margin-bottom: 80px;
+			text-align: center;
+			&__text {
+				margin-top: 50px;
+			}
+		}
+	}
+	.social {
+		&-title {
+			font-size: 77px !important;
+		}
+	}
+	.footer {
+		&-copy {
+			margin-top: 52px !important;
+		}
+		&-nav {
+			margin-bottom: 60px !important;
+		}
+	}
+}
+@media screen and (max-width: 575px) {
+	.header {
+		&-logo {
+			margin-bottom: 40px;
+		}
+		&-title {
+			margin-top: 100px !important;
+		
+		}
+		&-menu {
+			&__item {
+				font-size: 12px;
+				display: block !important;
+				text-align: center;
+			}
+			&__list {
+				margin-bottom: 7px;
+			}
+		
+		}	
+		&-icons {
+			margin-top: 50px;
+		}
+		&-text {
+			margin-top: 50px;
+		}
+	}
+	.offer {
+		padding-bottom: 120px !important;
+		&-surfboards {
+			margin-top: -200px !important;
+			background: #fff !important;
+			&__wrap-img {
+				display: block !important;
+				& img {
+					width: 100%;
+				}
+			}
+			&__photo {
+				display: inline-flex;
+			}
+			&__desc {
+				&-link {
+					a {
+						display: block;
+						margin: auto !important;
+						margin-bottom: 10px !important;
+					}
+				}
+			}
+		}
+	}
+	.about-us {
+		&-title {
+			font-size: 80px !important;
+		}
+		&-bg {
+			margin-top: -30px !important;
+		}
+		&-desc {
+
+		}
+	}
+	.our-team {
+		&-arrow-wrap {
+			display: none;
+		}
+	}
+	.social {
+		&-title {
+			font-size: 40px !important;	
+		}
+		&-instagram {
+			&__follow {
+				&-text {
+					font-size: 16px !important;
+				}
+			}
+		}
+		&-facebook {
+			&-cont-wrap {
+				width: 320px !important;
+			}
+			&-like {
+				&__img {
+					&>img {
+						width: 9%;
+					}
+				}
+			}
+		}
+	}
+}
